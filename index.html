@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAND & BREW - JoJo's Bizarre Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menacing-bg" id="menacingBg"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>STAND & BREW</h1>
+                <p class="subtitle">A Bizarre Coffee Experience</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">AWAKEN YOUR</h2>
+            <h1 class="hero-main">STAND POWER</h1>
+            <p class="hero-subtitle">WITH EVERY SIP</p>
+            <div class="menacing-text">ゴゴゴゴ</div>
+            <button class="cta-button" onclick="scrollToMenu()">EXPLORE MENU</button>
+        </div>
+        <div class="hero-decoration">
+            <div class="jojo-line line1"></div>
+            <div class="jojo-line line2"></div>
+            <div class="jojo-line line3"></div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">OUR BIZARRE MENU</h2>
+        <div class="menu-grid">
+            <div class="menu-item" data-stand="star-platinum">
+                <div class="item-header">
+                    <h3>STAR PLATINUM ESPRESSO</h3>
+                    <span class="price">$5.99</span>
+                </div>
+                <p class="stand-cry">ORA ORA ORA!</p>
+                <p class="description">A powerful double shot that stops time with its intensity. Pure, concentrated, unstoppable.</p>
+                <div class="stats">
+                    <span>Power: A</span>
+                    <span>Precision: A</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-stand="the-world">
+                <div class="item-header">
+                    <h3>THE WORLD LATTE</h3>
+                    <span class="price">$6.99</span>
+                </div>
+                <p class="stand-cry">ZA WARUDO!</p>
+                <p class="description">Time freezes as you savor this perfectly balanced latte with golden crema foam.</p>
+                <div class="stats">
+                    <span>Power: A</span>
+                    <span>Range: B</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-stand="hermit-purple">
+                <div class="item-header">
+                    <h3>HERMIT PURPLE BLEND</h3>
+                    <span class="price">$5.49</span>
+                </div>
+                <p class="stand-cry">OH NO!</p>
+                <p class="description">A mysterious pour-over with grape and berry notes that reveals the future in your cup.</p>
+                <div class="stats">
+                    <span>Power: D</span>
+                    <span>Precision: C</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-stand="golden-experience">
+                <div class="item-header">
+                    <h3>GOLDEN EXPERIENCE MOCHA</h3>
+                    <span class="price">$7.49</span>
+                </div>
+                <p class="stand-cry">MUDA MUDA MUDA!</p>
+                <p class="description">Life itself flows through this rich mocha with golden honey and chocolate notes.</p>
+                <div class="stats">
+                    <span>Power: C</span>
+                    <span>Growth: A</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-stand="crazy-diamond">
+                <div class="item-header">
+                    <h3>CRAZY DIAMOND CAPPUCCINO</h3>
+                    <span class="price">$6.49</span>
+                </div>
+                <p class="stand-cry">DORA!</p>
+                <p class="description">Restores your energy with perfectly steamed milk and heart-shaped latte art.</p>
+                <div class="stats">
+                    <span>Power: A</span>
+                    <span>Speed: B</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-stand="stone-free">
+                <div class="item-header">
+                    <h3>STONE FREE COLD BREW</h3>
+                    <span class="price">$5.99</span>
+                </div>
+                <p class="stand-cry">ORA!</p>
+                <p class="description">Break free from fatigue with this smooth, liberating cold brew that unravels your worries.</p>
+                <div class="stats">
+                    <span>Power: A</span>
+                    <span>Range: C</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2 class="section-title">OUR BIZARRE TALE</h2>
+            <div class="story-container">
+                <p class="story-text">
+                    In the year 2025, a mysterious arrow pierced a humble coffee bean in the mountains of Ethiopia. 
+                    That bean awakened with a <span class="highlight">STAND</span> - the power to create the most extraordinary coffee in existence.
+                </p>
+                <p class="story-text">
+                    Our founder, <span class="highlight">Joe Joestar</span>, discovered this bizarre phenomenon during his travels. 
+                    He established STAND & BREW to share these awakened beans with Stand users and ordinary coffee lovers alike.
+                </p>
+                <p class="story-text">
+                    Each cup is brewed with the fighting spirit of a JoJo, the precision of a Stand battle, 
+                    and the unbreakable bonds of friendship that define our bizarre adventure.
+                </p>
+                <div class="quote-box">
+                    <p class="quote">"Your next line is: 'This is the best coffee I've ever had!'"</p>
+                    <p class="quote-author">- Joe Joestar, Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">FIND US</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>LOCATION</h3>
+                <p>123 Joestar Avenue</p>
+                <p>Morioh City, Japan</p>
+            </div>
+            <div class="contact-card">
+                <h3>HOURS</h3>
+                <p>Mon-Fri: 7:00 AM - 9:00 PM</p>
+                <p>Sat-Sun: 8:00 AM - 10:00 PM</p>
+            </div>
+            <div class="contact-card">
+                <h3>CONTACT</h3>
+                <p>Phone: (555) JOJO-BREW</p>
+                <p>Email: info@standnbrew.bizarre</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 STAND & BREW - A Bizarre Coffee Shop Experience</p>
+        <p class="footer-note">⭐ This is a fan-made tribute to JoJo's Bizarre Adventure ⭐</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
